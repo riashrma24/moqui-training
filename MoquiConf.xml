@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<moqui>
-    <component name="moqui-training">
+<entity-facade>
+    <entity-group name="default" entity-location = "component://moqui-training/entity"/>
+</entity-facade>
 
-    </component>>
-</moqui>
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<moqui>-->
+<!--    <component name="component/moqui-training">-->
+<!--    </component>>-->
+<!--</moqui>-->

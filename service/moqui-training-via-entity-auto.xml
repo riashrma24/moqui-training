@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<services xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://moqui.org/service-definition-3.xsd">
+            <service verb="create" noun="MoquiTraining" type="entity-auto" >
+        <description>Includes services for MoquiTraining entity.</description>
+        <in-parameters>
+            <auto-parameters entity-name="moqui.training.MoquiTraining" include="nonpk"/>
+            <parameter name="trainingName" required="true"/>
+            <parameter name="trainingDate" type="Date"/>
+        </in-parameters>
+        <out-parameters><parameter name="trainingId"/></out-parameters>
+    </service>
+
+</services>

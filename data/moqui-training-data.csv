@@ -1,3 +1,5 @@
 moqui.training.MoquiTraining,demo
+
 trainingId,trainingName,trainingDate,trainingPrice,trainingDuration
+
 C01,Kotlin,2025-10-12,1000,12

@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component name="moquiTraining" version="1.0.0">
-    <description></description>
-    <runtime></runtime>>
+<resources>
+    <resource type="entity" localtion="component://moquiTraining/entity/moquiTraining" />
+    <resource type="'screen" location="screen" />
+</resources>
+
 </component>
+
+
+        <!--<?xml version="1.0" encoding="UTF-8"?>-->
+        <!--<component name="moqui-training">-->
+        <!--</component>-->
